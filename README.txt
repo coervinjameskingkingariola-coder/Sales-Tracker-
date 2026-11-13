@@ -1,9 +1,3 @@
-SALES TRACKER - INSTALL ON ANDROID
-1. Upload ALL files in this folder (keep the icons folder) to any HTTPS host
-   (GitHub Pages, Netlify Drop, Cloudflare Pages, your own site).
-2. On your Android phone open the https:// link in Chrome.
-3. Tap the three-dot menu > "Install app" (or "Add to Home screen").
-4. Open it from your home screen; it runs full screen and works offline.
-Updating: replace index.html on the host and change VERSION in sw.js (v1 -> v2).
-IMPORTANT: data is stored per website address. Use Sync setup (Google Sheets)
-on your old copy first, then connect the same Sync on the new address.
+Upload ALL 6 files (no folders) to the root of your GitHub repo, replacing the old ones:
+index.html, manifest.json, sw.js, icon-192.png, icon-512.png, maskable-512.png
+Then open your github.io link in Chrome, wait 10 seconds, and tap menu > Install app.
